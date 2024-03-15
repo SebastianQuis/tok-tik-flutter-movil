@@ -7,6 +7,7 @@ import 'package:tik_tok_app/presentation/widgets/shared/video_scrollable_view.da
 
 
 class DiscoverScreen extends StatelessWidget {
+  const DiscoverScreen({super.key});
  
   @override
   Widget build(BuildContext context) {

@@ -27,7 +27,7 @@ class VideoScrollableView extends StatelessWidget {
 
 class VideoBox extends StatelessWidget {
   final VideoPost videoPost;
-  const VideoBox( this.videoPost );
+  const VideoBox( this.videoPost, {super.key} );
 
   @override
   Widget build(BuildContext context) {

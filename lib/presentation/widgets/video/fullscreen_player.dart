@@ -79,7 +79,7 @@ class _FullScreenPlayerState extends State<FullScreenPlayer> {
 
 class VideoTitle extends StatelessWidget {
   final String title;
-  const VideoTitle( this.title );
+  const VideoTitle( this.title, {super.key} );
 
   @override
   Widget build(BuildContext context) {

@@ -1,6 +1,5 @@
 // INFORMACIÓN QUE VIENE DE UN API O DE MANERA LOCAL
 
-
 List<Map<String, dynamic>> videoPosts = [
   {
     'name': 'La naturaleza y el río',
